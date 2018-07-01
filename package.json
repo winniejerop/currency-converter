@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/winniejerop/currency-converter"
+    "url": "git+https://github.com/winniejerop/currency-converter.io"
   },
   "keywords": [
     "ES6",
@@ -23,6 +23,6 @@
   "author": "Winnie Rotich",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/winniejerop/currency-converter/issues"
+    "url": "https://github.com/winniejerop/currency-converter.io/issues"
   }
 }
