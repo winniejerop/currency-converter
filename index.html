@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Currency Converter</title>
+</head>
+<body>
+
+	
+
+	<div class="container">
+		<div class="col-md-12">
+			<div class="col-md-12">
+		<div class="flex mb-4">
+			<div class="col-md-12">
+				<span class="text-xl text-indigo-darker">Currency Converter</span>
+	        </div>
+		</div>
+	</div>
+			<div class="px-0">
+				<form id="currency_converter">
+			  	
+			    	<div class="col-md-12">
+			    		
+			      				<div class="col-md-12">
+			    		<label>From</label>
+			      					
+			      					<select id="currencies" name="from" class="form-control">
+								        
+								    </select>
+								    
+								</div>
+			      				<div class="col-md-12">
+			    		<label>Amount</label>
+
+			      					<input class="form-control" type="text" placeholder="Amount" name="amount">
+			      				</div>
+			      		
+			      				<div class="col-md-12">
+			    		<label >To</label>
+
+				      				<select id="currencies2" name="to" class="form-control">
+
+									</select>
+									
+								</div>
+				      			<div class="col-md-12">
+				      				<label>Converted Amount</label>
+				      				<input id="convertedResult" class="form-control" type="text" readonly="readonly">
+				      			</div>
+			      			
+			  	</div>
+			</div>
+			<div class="h-auto text-center m-5">
+				<button class="btn btn-primary btn-lg" onclick="convertCurrency()">
+					convert
+				</button>
+			</div>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="assets/js/idb.js"></script>
+	<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>

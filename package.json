@@ -1,0 +1,28 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "ALC 7days-of-code-challenge, a currency converter website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winniejerop/currency-converter"
+  },
+  "keywords": [
+    "ES6",
+    "PWA",
+    "Currency",
+    "Converter",
+    "Andela",
+    "Udacity",
+    "Google"
+  ],
+  "author": "Winnie Rotich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winniejerop/currency-converter/issues"
+  }
+}

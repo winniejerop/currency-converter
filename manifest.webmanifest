@@ -1,0 +1,40 @@
+{
+  "name": "currency-converter",
+  "short_name": "Currency Converter",
+  "icons": [
+    {
+      "src": "/assets/img/icons/android-chrome-32x32.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/src/images/icons/android-chrome-64x64.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/src/images/icons/android-chrome-128x128.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/src/images/icons/android-chrome-256x256.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/src/images/icons/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff",
+  "theme_color": "#f2f2f2",
+  "description": "Winnie Rotich",
+  "dir": "ltr",
+  "lang": "en-US"
+}
